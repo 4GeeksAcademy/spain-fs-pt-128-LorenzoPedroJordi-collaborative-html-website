@@ -1,3 +1,17 @@
 <!-- your html code here -->
 <!-- Also called a hero image or a jumbotron before bootstrap 5. This might be helpful: https://getbootstrap.com/docs/5.1/examples/jumbotron/ -->
-<p>Hello, I'm the tagline and I was loaded using ajax from templates/tagline.html</p>
+
+<!-- Usamos el estilo "height: 100vh" para que la imagen ocupe siempre el 100% de la altura de la pantalla. -->
+<header class="d-flex flex-column text-center" style="
+    background-image: url('./assets/img/bg.jpg'); background-size: cover; height: 100vh;">
+
+    <div class="bg-white bg-opacity-75 w-100 py-3 mt-5">
+        <!-- Usamos el estilo "font-size: 10vw" para que el ancho de la letra sea mayor, intentando así ocupar todo el ancho de la pantalla. -->
+        <h1 class="fw-bold display-1" style="font-size: 10vw;">One Page Wonder</h1>
+    </div>
+
+    <div class="bg-white bg-opacity-75 w-100 py-3 mt-3">
+        <h2 class="fw-bold display-5" style="font-size: 6vw;">Will Knock Your Socks Off</h2>
+    </div>
+
+</header>
